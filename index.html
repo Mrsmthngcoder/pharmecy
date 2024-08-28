@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Pharmacy Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Our Products</h2>
+            <p>Find all your health needs in one place.</p>
+        </section>
+
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <h3>Product 1</h3>
+                    <p>Description of Product 1</p>
+                </div>
+                <div class="product-item">
+                    <h3>Product 2</h3>
+                    <p>Description of Product 2</p>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pharmacy Store. All rights reserved.</p>
+    </footer>
+
+    <!-- Popup Form -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2>Subscribe for Updates</h2>
+            <p>Enter your email ID or contact number to receive updates.</p>
+            <form id="subscribeForm">
+                <input type="text" id="contactInfo" placeholder="Enter email or contact number" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</body>
+</html>
